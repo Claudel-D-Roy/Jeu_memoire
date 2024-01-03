@@ -1,0 +1,60 @@
+﻿.flipper {
+    animation-direction: normal;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-name: flipper;
+    animation-timing-function: linear;
+}
+
+@keyframes flipper {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(90deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.agrandirElement {
+    animation-direction: alternate;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: agrandirElement;
+    animation-timing-function: ease-out;
+}
+
+@keyframes agrandirElement {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    100% {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+
+.rapetisserElement {
+    animation-direction: normal;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: rapetisserElement;
+    animation-timing-function: ease-out;
+}
+
+@keyframes rapetisserElement {
+    0% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}

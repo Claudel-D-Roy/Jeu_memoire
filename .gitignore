@@ -1,0 +1,11 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/TP2/.vs/TP2/config
+/TP2/bin
+/TP2/obj
+/TP2/.vs/TP2/FileContentIndex
+/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1
+/TP2/.vs/TP2/v17
+/TP2/TP2.csproj.user
